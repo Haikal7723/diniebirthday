@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 50%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* Surprise box styled like a card */
+.surprise-box {
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ff6f61;
+  color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  transition: 0.3s;
+}
+
+.surprise-box:hover {
+  background: #e85c50;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}
